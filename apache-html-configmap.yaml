@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apache-html
+data:
+  index.html: |
+    <html>
+      <head><title>Apache Demo</title></head>
+      <body>
+        <h1>Aplicação rodando no Apache via Argo CD!</h1>
+      </body>
+    </html>
